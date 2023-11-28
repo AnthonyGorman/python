@@ -25,7 +25,7 @@ for index, row in df.iterrows():
     key = row['FirstName'] + ' ' + row['LastName']
     patient_map[key] = row['PatientID']
 
-df = pd.read_csv('bogusData.csv')
+df = pd.read_csv('bogusData2.csv')
 newDF = pd.DataFrame(columns=['PhysicianID', 'PatientID'])
 
 for index, row in df.iterrows():
